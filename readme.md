@@ -8,7 +8,7 @@ L'objectif est de reproduire un **workflow complet de Data Science**, allant de 
 
 Le travail principal de ce projet est présenté dans le **Jupyter Notebook**, qui contient toutes les étapes de l'analyse.
 
-## Présentation du projet
+## Objectifs du projet
 
 * Comprendre l'ensemble de données et le nettoyer.
 * Faire une analyse du marché immobilier et la modélisation prédictive
