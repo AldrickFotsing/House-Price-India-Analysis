@@ -104,6 +104,21 @@ Random Forest obtient un score moyen d'environ :
 
 R² ≈ 0.87
 
+## Optimisation des hyperparamètres
+
+Une optimisation des hyperparamètres a été réalisée avec **GridSearchCV**.
+
+Meilleurs paramètres obtenus :
+
+- `n_estimators` = **300**
+- `max_depth` = **None**
+- `max_features` = **None**
+- `min_samples_split` = **5**
+
+Score R² moyen après optimisation :
+
+- `R²` ≈ **0.864**
+
 # 🚀 Application Interactive (Streamlit)
 
 Une application web a été développée avec Streamlit pour permettre aux utilisateurs de tester le modèle de Machine Learning.
