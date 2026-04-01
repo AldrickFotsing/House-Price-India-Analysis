@@ -2,9 +2,7 @@
 
 ## Présentation du projet
 
-Ce projet a pour objectif d'analyser et de prédire les prix des maisons à partir d'un dataset immobilier.
-
-L'objectif est de reproduire un **workflow complet de Data Science**, allant de l'analyse exploratoire des données jusqu'à la modélisation prédictive avec plusieurs algorithmes de Machine Learning.
+Ce projet propose un **workflow complet** de Data Science, allant de l'analyse exploratoire des données (EDA) à la mise en production d'une application web interactive. L'objectif est d'analyser les facteurs influençant le marché immobilier en Inde et de fournir un outil de prédiction en temps réel.
 
 Le travail principal de ce projet est présenté dans le **Jupyter Notebook**, qui contient toutes les étapes de l'analyse.
 
@@ -52,6 +50,7 @@ Le travail principal de ce projet est présenté dans le **Jupyter Notebook**, q
 Langage :
 
 - Python
+- Déploiement : Streamlit, Joblib
 
 Bibliothèques principales :
 
@@ -103,34 +102,29 @@ Pour vérifier la robustesse des modèles, une **validation croisée (5-Fold Cro
 
 Random Forest obtient un score moyen d'environ :
 
-R² ≈ 0.86
+R² ≈ 0.87
 
-## Optimisation des hyperparamètres
+# 🚀 Application Interactive (Streamlit)
 
-Une optimisation des hyperparamètres a été réalisée avec **GridSearchCV**.
+Une application web a été développée avec Streamlit pour permettre aux utilisateurs de tester le modèle de Machine Learning.
 
-Meilleurs paramètres obtenus :
+- `Fonctionnalités` : Saisie intuitive des caractéristiques du bien (chambres, surface, localisation, etc.).
 
-- `n_estimators` = **300**
-- `max_depth` = **None**
-- `max_features` = **None**
-- `min_samples_split` = **5**
+- Calcul automatique des variables transformées (logarithmes, ratios).
 
-Score R² moyen après optimisation :
-
-- `R²` ≈ **0.864**
+- Prédiction instantanée en Lakhs (₹) et conversion automatique en Francs CFA (XAF).
 
 ## Statut du projet
 
-Projet actuellement à l'étape :
+- Analyse exploratoire des données (EDA)
 
-Analyse des données + Machine Learning
+- Feature Engineering & Transformations log
 
-Prochaine étape :
+- Modélisation (Random Forest R² 0.87)
 
-Déploiement du modèle avec **Streamlit** afin de créer une application permettant de prédire le prix d'une maison à partir de ses caractéristiques.
+- Création de l'application Streamlit
 
-Le déploiement sera ajouté dans une prochaine version du projet.
+- Déploiement en ligne
 
 ## Auteur
 
